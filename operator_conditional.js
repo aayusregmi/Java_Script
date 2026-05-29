@@ -47,8 +47,41 @@ console.log("condition1 && condition2 " , cond1 && cond2); //true
 cond2 = a === b; //false
 console.log("a===b" , a===b); 
 console.log("condition1 || condition2" , cond1 || cond2); //true
+console.log("a =" , a , "& b = " , b);
+console.log("!(a < b)" , !(a < b) ); //false
 
-
-
-
-
+//Conditional Statement
+console.log("Conditioal Statement");
+let age = 19;
+if(age >= 19){
+    console.log("You can drive!!");
+}
+let mode = "dark";
+let color;
+if(mode === "dark"){
+    color = "Black";
+}else{
+    color = "White";
+}
+console.log(color);
+//else if
+console.log("else-if");
+if(mode === "dark"){
+    color = "Black";
+}else if(mode === "blue"){
+    color = "Blue";
+}else if(mode === "red"){
+    color = "Red";
+}else{
+    color = "White";
+}
+console.log(color);
+if(mode === "dark"){
+    console.log(mode);
+}
+//Ternary Operator
+console.log("Ternery Operator");
+a = 10;
+b = 2;
+a % b == 0 ? console.log("a is even") : console.log("a is odd");
+// a > 8 ? "adult" : "not adult";
