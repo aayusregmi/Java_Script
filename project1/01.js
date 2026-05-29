@@ -7,7 +7,7 @@ const product = {
     Discount_price : 270,
 };
 console.log(product);
-//second project
+// second project
 const profile = {
     fullName : "Sharadha Khapra",
     isfollow : false,
@@ -17,3 +17,5 @@ const profile = {
     profession : "Entreprenur"
 };
 console.log(profile);
+profile.fullName = "Aayushma Dhital Chhetri";
+console.log(profile.fullName);

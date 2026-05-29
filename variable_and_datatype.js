@@ -50,5 +50,5 @@ console.log(student.Name);     //to access the key of the object
 console.log(student.age);
 student.age = student.age + 2;  //i assigned the new value to object
 console.log(student.age);
-student.name = "Shamrat Regmi";
-console.log(student.name);
+student.Name = "Shamrat Regmi";
+console.log(student.Name);
