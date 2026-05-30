@@ -47,6 +47,7 @@ const student = {
 }
 console.log(student);
 console.log(student.Name);     //to access the key of the object
+console.log(student["Name"]);
 console.log(student.age);
 student.age = student.age + 2;  //i assigned the new value to object
 console.log(student.age);
