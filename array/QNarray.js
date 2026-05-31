@@ -1,9 +1,16 @@
-//without using array method
-let companies = ["Bloomberg" , "Microsoft" , "Uber" , "Google" , "IBM" , "Netflix"];
-companies[0] = null;
-companies[2] = "Ola";
-companies[6] = "Amazon";
+//Qs.
+let companies = ["Bloomberg" , "Microsoft" , "Uber" , "Google" , "IBM" , "Netflix" ];
+//removing first company from array
 console.log(companies);
+companies.shift();
+console.log(companies);
+//replacing uber with ola
+companies.splice(2 , 1 , "Ola");
+console.log(companies);
+//adding amazon at the end
+companies.push("Amazon");
+console.log(companies);
+
 //For a given array with marks of students -> [85, 97, 44, 37, 76, 60].Find the average marks of the entire class.
 console.log("<----Next Question----->");
 let marks_std = [85, 97, 44, 37, 76, 60];

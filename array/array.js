@@ -15,7 +15,7 @@ for(let i = 0; i < (heroes.length); i++){
 for(let idx of heroes){
     console.log(idx);
 } 
-let cities = ["Baglung" , "pokhara" , "Kathmandau"];
+let cities = ["Baglung" , "pokhara" , "Kathmandu"];
 for(let city of cities){
     console.log(city.toUpperCase());
 }
@@ -51,4 +51,4 @@ let arr = [1 , 2 , 3 , 4 , 5 , 6];
 //delete
 //arr.splice(2 , 1);
 //replace
-arr.splice(2 , 1 , 3.5);
+arr.splice(2 , 1 , 3.5); 
