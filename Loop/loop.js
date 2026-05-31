@@ -50,3 +50,17 @@ console.log(student.fullName)
 for(let key in student){
     console.log(`key = ${key} value = ${student[key]}`);
 }
+
+const person = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA'
+  }
+};
+
+for (const prop in person) {
+  console.log(person[prop]);
+}

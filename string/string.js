@@ -45,3 +45,18 @@ console.log(`${firstName.concat(lastName)}`);
  let greet = "Hello";
  console.log(`${greet.replace("l" , "u")}`);  //replace ley first matching lai replace garxa 
  console.log(`${greet.replaceAll("l" , "u")}`); //replaceALL ley sabai matching lai replace garxa
+
+// let poem = "Roses are red,\nViolets are blue,\nJavaScript is fun,\nAnd so are you.";
+// console.log(poem);
+
+let poem = `Roses are red,
+Violets are blue,
+JavaScript is fun,
+And so are you.`;
+
+console.log(poem);
+
+//to find the position of the substring within the string
+let tarif = "Javascript is awesome and i love javascript";
+let position = tarif.indexOf("love" , 5);
+console.log(position);
