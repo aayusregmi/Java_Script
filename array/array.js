@@ -52,3 +52,36 @@ let arr = [1 , 2 , 3 , 4 , 5 , 6];
 //arr.splice(2 , 1);
 //replace
 arr.splice(2 , 1 , 3.5); 
+
+console.log("<------Array Destructuring------>");
+let fruits = ["Apple" , "Banana" , "Mango"];
+let [firstFruit , secondFruit , thirdFruit] = fruits;
+
+//we can skip the element from the array
+let [first , , third] = fruits;
+console.log(first);
+
+//Another powerful feature of array destructuring is the ability to use default values. If the array has fewer elements than the variables you're trying to assign, you can provide default values:
+let numbers = [1 , 2 , 3];
+let [x , y , z , w = 4] = numbers;
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(w);
+
+//Now, let's discuss the rest syntax, denoted by three dots (...). It allows you to capture the remaining elements of an array that haven’t been destructured into a new array. Here's how it works:
+let fav = ["Apple" , "Banana" , "Mango" , "Grapes" , "Kiwi"];
+let [fulka , halka , ...khatra] = fav;
+console.log(fulka);
+console.log(halka);
+console.log(khatra);
+ 
+//String and Array method to reverse the string
+let firstName = "Aayus";
+let charArray = firstName.split("");
+console.log(charArray);
+charArray.reverse();
+let revString = charArray.join("");
+console.log(revString);
+
+
