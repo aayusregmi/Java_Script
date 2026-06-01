@@ -1,0 +1,34 @@
+function myFunction(){  //function defination
+    console.log("Hello, Welcome to the journey of Java Script");
+    console.log("java Script is fun");
+}
+myFunction();    //function call
+//doing some fun things-------------------->
+// let userName = prompt("Enter your Name:");
+// function gretting(msg){   //msg------> Parameter
+//     console.log(`${msg}, ${userName} Welcome to the Aayus Website!!:)`);
+// }
+// gretting("Namaste"); //Namaste---> Argument
+
+//function ----> sum of two number
+function sum(a , b){
+   let s = a + b;
+   console.log("before return");
+    return s;
+    console.log("After return");
+}
+let x = 10;
+let y = 20;
+let add = sum(10 , 20);
+console.log(add);
+
+//arrow function (Multiplication Using Arrow Function)
+const multiplication = (a , b) =>{
+    return a * b;
+}
+console.log(multiplication(5 , 6));
+
+const hello = () => {
+    console.log("Hello Aayus");
+}
+hello();
