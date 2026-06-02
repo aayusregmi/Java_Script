@@ -26,3 +26,9 @@ const vowelNumber = (str)=>{
     return count;
 }
 console.log(`Using arrow function there are ${vowelNumber("Anju")} vowel in given name`);
+
+//For a given array of numbers, print the square of each value using the forEach loop.
+let num = [1 , 2 , 3 , 4 ,5];
+num.forEach((n) =>{
+    console.log(`${n * n}`);
+})

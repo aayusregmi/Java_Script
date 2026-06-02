@@ -32,3 +32,18 @@ const hello = () => {
     console.log("Hello Aayus");
 }
 hello();
+
+function subtraction(x , y) {
+     return x - y;
+}
+function secSubtrac(subtraction){
+    return subtraction;
+}
+console.log(subtraction(5 , 3));
+console.log(secSubtrac(5));
+
+console.log("<------forEach Loop in Arrays------->"); //can only be use for array
+let number = [10 , 20, 40];
+number.forEach(function print(n , idx , number){
+    console.log(n , idx , number);
+}) 
