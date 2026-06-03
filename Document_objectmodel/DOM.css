@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head-class{
+    color: blueviolet;
+}
+body {
+    background-color: bisque;
+}
+button {
+         background-color: black;
+        color: white;
+        border-radius: 10px;
+}
+p{
+    color: rgb(34, 208, 252);
+    font-size: medium;
+    font-weight: bold;
+}
