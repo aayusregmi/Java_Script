@@ -47,3 +47,10 @@ let number = [10 , 20, 40];
 number.forEach(function print(n , idx , number){
     console.log(n , idx , number);
 }) 
+
+// <-------Default parameteers--------->
+const greeting = (name = "Guest")=>{
+    console.log(`Hello,${name}!!! Welcome to our website`);
+}
+console.log(greeting());
+console.log(greeting("Aayus"));
