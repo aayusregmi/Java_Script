@@ -8,3 +8,5 @@ lastDesert.appendChild(endChild);
 const scnDiv = document.getElementById("second-div");
 const rmvChild = document.querySelector("#second-div p:last-of-type");
 scnDiv.removeChild(rmvChild);
+//extra
+console.log(window.innerWidth);
