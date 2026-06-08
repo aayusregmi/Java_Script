@@ -21,3 +21,7 @@ btn.addEventListener("click" , ()=>{
       currentBtnColor = "white";
     }
 })
+const inp = document.getElementById("input");
+inp.addEventListener("input" , ()=>{
+    console.log(input.value)
+})
